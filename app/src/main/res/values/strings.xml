@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MonCVApp</string>
+    <string name="firstname">POZZATO Alexandre</string>
+    <string name="phone">0625533847</string>
+    <string name="email">pozzatoalexandre@gmail.com</string>
+    <string name="address">4 rue Jean Jacques Rousseau Ivry sur Seine 94200 appartement 239</string>
+
+    <string name="title_exp">Exprériences</string>
+    <string name="title_form">Formations</string>
+    <string name="title_comp">Compétences</string>
+
+    <string name="title_langage">Langages</string>
+    <string name="title_projet">Projets</string>
+
+    <string name="title_linkButton">Lien Git</string>
+</resources>

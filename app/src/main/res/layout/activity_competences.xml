@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_gradient">
+
+    <TextView
+        android:id="@+id/textViewLangage"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_langage"
+        android:textSize="24dp"/>
+
+    <ListView
+        android:id="@+id/listViewLangage"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        tools:listitem="@layout/item_langage"/>
+
+    <TextView
+        android:id="@+id/textViewProjet"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_projet"
+        android:textSize="24dp"/>
+
+    <ListView
+        android:id="@+id/listViewProjet"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        tools:listitem="@layout/item_projet"/>
+</LinearLayout>
